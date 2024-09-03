@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>Villa Agency - Danh sách Bất Động Sản bởi TemplateMo</title>
+
+    <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/templatemo.css">
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/dropdown.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+</head>
+
+<body>
+
+    <!-- ***** Bắt đầu Preloader ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Kết thúc Preloader ***** -->
+
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <ul class="info">
+                        <li><i class="fa fa-envelope"></i> info@company.com</li>
+                        <li><i class="fa fa-map"></i> Bãi Biển Sunny Isles, FL 33160</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Bắt đầu Header Area ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="main-nav">
+                <!-- ***** Logo Start ***** -->
+                <a href="index.html" class="logo">
+                  <h1>Villa</h1>
+                </a>
+                <!-- ***** Logo End ***** -->
+                <!-- ***** Menu Start ***** -->
+               
+                <ul class="nav">
+                   <form class="d-flex search-form" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><a href="products.html">Sản phẩm</a></li>
+                  <li><a href="product-details.html">giới thiệu</a></li>
+                  <li><a href="contact.html">Liên hệ</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Tài khoản</a>
+                    <div class="dropdown-menu">
+                      <a href="login.html">Đăng nhập</a>
+                      <a href="register.html">Đăng ký</a>
+                    </div>
+                  </li>
+                  <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+                </ul>
+                <a class='menu-trigger'>
+                  <span>Menu</span>
+                </a>
+    
+    
+                <!-- ***** Menu End ***** -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+
+    <!-- ***** Header Area End ***** -->
+    <!-- ***** Kết thúc Header Area ***** -->
+
+    <div class="page-heading header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="breadcrumb"><a href="#"></a>   </span>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section properties">
+        <div class="container">
+            <div class="section properties">
+                <div class="container">
+                    <section class="filters">
+                        <div class="moni">
+                            <h1>Các sản phẩm </h1>
+                            <div class="filter-group dropdown">
+                                <h5 onclick="toggleDropdown()">Bán chạy nhất</h5>
+                                <ul class="dropdown-content">
+                                    <li><input type="checkbox"> sản phẩm nổi bật</li>
+                                    <li><input type="checkbox"> Giá: Tăng dần </li>
+                                    <li><input type="checkbox">  Giá: Giảm dần </li>
+                                    <li><input type="checkbox">  Mới nhất </li>
+                                    <li><input type="checkbox">  Bán chạy nhất </li>
+                                    <!-- Thêm các mục khác tương tự -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="menu">
+                            <div class="filter-group dropdown">
+                                <h5 onclick="toggleDropdown()">Danh Mục</h5>
+                                <ul class="dropdown-content">
+                                    <li><input type="checkbox"> Bàn Sofa - Bàn Cafe - Bàn Trà</li>
+                                    <li><input type="checkbox"> Bàn Ăn</li>
+                                    <li><input type="checkbox"> Ghế Sofa</li>
+                                    <li><input type="checkbox"> Bộ Bàn Ăn</li>
+                                    <li><input type="checkbox"> Tủ Đầu Giường</li>
+                                    <li><input type="checkbox"> Tủ & Kệ</li>
+                                    <li><input type="checkbox"> Tủ Quần Áo</li>
+                                    <li><input type="checkbox"> Tủ Kệ Tivi</li>
+                                    <li><input type="checkbox"> Tủ Giày - Tủ Trang Trí</li>
+                                    <li><input type="checkbox"> Bàn Làm Việc</li>
+                                    <li><input type="checkbox"> Ghế Ăn</li>
+                                    <li><input type="checkbox"> Giường Ngủ</li>
+                                    <li><input type="checkbox"> Bàn Trang Điểm</li>
+                                    <li><input type="checkbox"> Ghế Văn Phòng</li>
+                                    <li><input type="checkbox"> Khác</li>
+                                    <li><input type="checkbox"> Khánh Vy Home</li>
+                                    <li><input type="checkbox"> Bếp</li>
+                                    <li><input type="checkbox"> Combo Basic</li>
+                                    <li><input type="checkbox"> Full Combo</li>
+                                    <li><input type="checkbox"> Bếp Dưới</li>
+                                    <li><input type="checkbox"> Vạn Thành</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="filter-group dropdown">
+                                <h5 onclick="toggleDropdown()">Giá sản phẩm</h5>
+                                <ul class="dropdown-content">
+                                    <li><input type="checkbox"> Tất cả</li>
+                                    <li><input type="checkbox"> Dưới 500,000₫</li>
+                                    <li><input type="checkbox"> 500,000₫ - 1,000,000₫</li>
+                                    <li><input type="checkbox"> 1,000,000₫ - 1,500,000₫</li>
+                                    <li><input type="checkbox"> 2,000,000₫ - 5,000,000₫</li>
+                                    <li><input type="checkbox"> Trên 5,000,000₫</li>
+                                </ul>
+                            </div>
+                            <div class="filter-group dropdown">
+                                <h5 onclick="toggleDropdown()">Màu Sắc</h5>
+                                <ul class="dropdown-content">
+                                    <li><div class="color-sample white"></div></li>
+                                    <li><div class="color-sample black"></div></li>
+                                    <li><div class="color-sample brown"></div></li>
+                                    <li><div class="color-sample gray"></div></li>
+                                    <li><div class="color-sample red"></div></li>
+                                    <li><div class="color-sample green"></div></li>
+                                    <li><div class="color-sample blue"></div></li>
+                                    <li><div class="color-sample yellow"></div></li>
+                                </ul>
+                            </div>
+                            
+                            
+                            
+                            <div class="filter-group dropdown">
+                                <h5 onclick="toggleDropdown()">Kích thước</h5>
+                                <ul class="dropdown-content">
+                                    <li><input type="checkbox"> Bàn Sofa - Bàn Cafe - Bàn Trà</li>
+                                    <li><input type="checkbox"> Bàn Ăn</li>
+                                    <li><input type="checkbox"> Bộ Bàn Ăn</li>
+                                    <!-- Thêm các mục khác tương tự -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Thêm các bộ lọc khác như Kích Thước -->
+                    </section>
+
+
+                </div>
+            </div>
+
+            <div class="row properties-box">
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp6.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Tủ Tivi Hùng King</a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp3.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Sofa 3 chỗ Orientale da beige R5</a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp1.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Bàn nước Orientale walnut</a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp2.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Sofa Bolero 3 chỗ + Đôn M3 </a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp4.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Sofa 2 chỗ Mây mới</a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac">
+                    <div class="item">
+                        <a href="product-details.html"><img src="assets/images/sp5.jpg" alt="Sofa"></a>
+                        <span class="category">Sofa Cao Cấp</span> <br>
+                        <h5><a href="product-details.html">Bàn ăn 6 chỗ Coastal</a></h5>
+                        <h6 class="price">2,790,000đ <span class="original-price">4,490,000đ</span></h6> <br>
+            
+                        <ul>
+                          <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                          <span style="color: #f35525;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="sold">Đã bán: (923) </span>
+                          </span> <br>
+                        </ul>
+                        <div class="main-button">
+                            <a href="product-details.html">Xem chi tiết </a>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="pagination">
+                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#" class="active">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Bắt đầu Footer ***** -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+      <div class="container">
+          <div class="row">
+  
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-success border-bottom pb-3 border-light logo">Villa</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li>
+                          <i class="fas fa-map-marker-alt fa-fw"></i>
+                          123 Consectetur at ligula 10660
+                      </li>
+                      <li>
+                          <i class="fa fa-phone fa-fw"></i>
+                          <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                      </li>
+                      <li>
+                          <i class="fa fa-envelope fa-fw"></i>
+                          <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                      </li>
+                  </ul>
+              </div>
+  
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                      <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                      <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
+                      <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
+                      <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
+                      <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
+                      <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                  </ul>
+              </div>
+  
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="#">Home</a></li>
+                      <li><a class="text-decoration-none" href="#">About Us</a></li>
+                      <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
+                      <li><a class="text-decoration-none" href="#">FAQs</a></li>
+                      <li><a class="text-decoration-none" href="#">Contact</a></li>
+                  </ul>
+              </div>
+  
+          </div>
+  
+          <div class="row text-light mb-4">
+              <div class="col-12 mb-3">
+                  <div class="w-100 my-3 border-top border-light"></div>
+              </div>
+              <div class="col-auto me-auto">
+                  <ul class="list-inline text-left footer-icons">
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-auto">
+                  <label class="sr-only" for="subscribeEmail">Email address</label>
+                  <div class="input-group mb-2">
+                      <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                      <div class="input-group-text btn-success text-light">Subscribe</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+  
+  </footer>
+    <!-- ***** Kết thúc Footer ***** -->
+
+    <!-- Các tệp JavaScript core của Bootstrap -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Các tệp JavaScript bổ sung -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
